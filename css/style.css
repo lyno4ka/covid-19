@@ -1,0 +1,12 @@
+#countries-list {
+	max-height: 400px;
+	overflow-y: auto; 
+}
+#country-info dt{
+	float: left;
+	margin-right: 15px;
+
+}
+#country-info dt::after{
+	content: ':';
+}
